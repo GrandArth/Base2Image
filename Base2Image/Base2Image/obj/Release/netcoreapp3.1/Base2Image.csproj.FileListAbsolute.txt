@@ -12,3 +12,4 @@ C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Release\netcoreapp3.1\Base
 C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Release\netcoreapp3.1\Base2Image.runtimeconfig.dev.json
 C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Release\netcoreapp3.1\Base2Image.pdb
 C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Release\netcoreapp3.1\Base2Image.genruntimeconfig.cache
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Release\netcoreapp3.1\Base2Image.csprojAssemblyReference.cache

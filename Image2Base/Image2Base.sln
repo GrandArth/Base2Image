@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image2Base", "Image2Base\Image2Base.csproj", "{D9D8923F-37E9-4596-8F5A-0704CA359841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9D8923F-37E9-4596-8F5A-0704CA359841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D8923F-37E9-4596-8F5A-0704CA359841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D8923F-37E9-4596-8F5A-0704CA359841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D8923F-37E9-4596-8F5A-0704CA359841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D8C7326-D536-403A-B938-7B314957B4AB}
+	EndGlobalSection
+EndGlobal

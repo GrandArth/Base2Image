@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Base2Image/1.0.0": {
+        "dependencies": {
+          "SixLabors.ImageSharp": "1.0.1"
+        },
+        "runtime": {
+          "Base2Image.dll": {}
+        }
+      },
+      "SixLabors.ImageSharp/1.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Base2Image/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SixLabors.ImageSharp/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DjLoFNdUfsDP7RhPpr5hcUhl1XiejqBML9uDWuOUwCkc0Y+sG9IJLLbqSOi9XeoWqPviwdcDm1F8nKdF0qTYIQ==",
+      "path": "sixlabors.imagesharp/1.0.1",
+      "hashPath": "sixlabors.imagesharp.1.0.1.nupkg.sha512"
+    }
+  }
+}

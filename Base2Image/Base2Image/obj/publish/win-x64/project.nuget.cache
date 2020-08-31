@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hek9b9zMP6wGcoQiRiVhExvSc+Ms8PhMB2KPteoduc+cQqF4PZJbhSHACqC+N3s2/ZYGjjSmrSJNUsb1zBDPUg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\v2629\\source\\repos\\Base2Image\\Base2Image\\Base2Image.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\v2629\\.nuget\\packages\\sixlabors.imagesharp\\1.0.1\\sixlabors.imagesharp.1.0.1.nupkg.sha512",
+    "C:\\Users\\v2629\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.7\\microsoft.netcore.app.runtime.win-x64.3.1.7.nupkg.sha512",
+    "C:\\Users\\v2629\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.7\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.7.nupkg.sha512",
+    "C:\\Users\\v2629\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.7\\microsoft.aspnetcore.app.runtime.win-x64.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
