@@ -1,0 +1,15 @@
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\Base2Image.exe
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.csprojAssemblyReference.cache
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.AssemblyInfoInputs.cache
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.AssemblyInfo.cs
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\Base2Image.deps.json
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\Base2Image.runtimeconfig.json
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\Base2Image.runtimeconfig.dev.json
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\Base2Image.dll
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\Base2Image.pdb
+C:\Users\v2629\source\repos\Base2Image\Base2Image\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.csproj.CoreCompileInputs.cache
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.csproj.CopyComplete
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.dll
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.pdb
+C:\Users\v2629\source\repos\Base2Image\Base2Image\obj\Debug\netcoreapp3.1\Base2Image.genruntimeconfig.cache
