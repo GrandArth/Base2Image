@@ -20,8 +20,17 @@ namespace Image2Base
                 for (int imYindex = 0; imYindex < OriginImage.Height; imYindex++) {
                     Span<Rgba32> pixelRowSpan = OriginImage.GetPixelRowSpan(imYindex);
                     byte[] rgbaBytes = MemoryMarshal.AsBytes(pixelRowSpan).ToArray();
+                    int len = getBytesEnd(rgbaBytes);
+                    if (len < rgbaBytes.Length)
+                    {
+                        // File ended
+                        var segment = new ArraySegment<byte>(rgbaBytes, 0, len);
+                        ContentInByte.AddRange(segment);
+                        break;
+                    }
                     ContentInByte.AddRange(rgbaBytes);
                 }
+                // Known issues: Windows CRLF and *nix LF control
                 byte[] CIBarray = ContentInByte.ToArray();
                 string Outputtext = Encoding.Default.GetString(CIBarray);
                 using (StreamWriter outputFile = new StreamWriter(Path.Combine(OutputFileDir, Path.GetFileNameWithoutExtension(args[0]) + ".txt")))
@@ -30,6 +39,30 @@ namespace Image2Base
                 }
             }
             return;
+        }
+
+        /// <summary>
+        /// Get file end from RGBA Bytes
+        /// </summary>
+        /// <param name="rgbaBytes">RGBA Bytes</param>
+        /// <returns>Rgba byte array length</returns>
+        static int getBytesEnd(byte[] rgbaBytes)
+        {
+            if (rgbaBytes == null)
+            {
+                return 0;
+            }
+            int len = rgbaBytes.Length;
+            for (int i = 0; i < len - 1; i++)
+            {
+                // Multiple 255 appears means that the offset should be the end of file.
+                if (rgbaBytes[i] == 255 && rgbaBytes[i + 1] == 255)
+                {
+                    len = i;
+                    break;
+                }
+            }
+            return len;
         }
     }
 
